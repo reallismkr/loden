@@ -2,6 +2,18 @@
   {
     "kind": "short",
     "group": "studio",
+    "slug": "57",
+    "code": "57번",
+    "title": "유막제거",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./57/",
+    "thumb": "https://thumbnail13.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8306/81719f10c989d6924d7247df9debbce9f693e03d8186ed58920770136e2d.jpg",
+    "updated_at": "2026-11-26 22:41"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
     "slug": "100",
     "code": "100번",
     "title": "노스페이스 방한슬리퍼",
