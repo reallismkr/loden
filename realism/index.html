@@ -18,7 +18,7 @@
       background: #f5f6fa; color: #181a20;
       font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
     }
-    .wrap { max-width: 480px; margin: 0 auto; }
+    .wrap { max-width: 500px; margin: 0 auto; }
     .disc { text-align: center; font-size: 11px; color: #9ca3af; margin-bottom: 16px; }
     .prof { text-align: center; margin-bottom: 16px; }
     .av {
@@ -36,7 +36,7 @@
       border-radius: 15px; background: #14161a; color: #fff; font-weight: 800; font-size: 14.5px;
       text-decoration: none; box-shadow: 0 6px 18px rgba(17,24,39,.14);
     }
-    .search-wrap { position: relative; margin-bottom: 12px; }
+    .search-wrap { position: relative; margin-bottom: 10px; }
     .search {
       width: 100%; padding: 13px 16px 13px 40px; border-radius: 14px; border: 1.5px solid #e5e7eb;
       background: #fff; font-size: 14.5px; outline: none; color: #111827;
@@ -45,12 +45,13 @@
     .search:focus { border-color: var(--accent); }
     .search-ico { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 15px; opacity: .55; }
 
-    .tabs { display: flex; gap: 7px; margin-bottom: 12px; }
+    .tabs { display: flex; gap: 6px; margin-bottom: 10px; overflow-x: auto; padding-bottom: 2px; }
     .tab {
-      flex: 1; padding: 9px 10px; border-radius: 11px; border: 1px solid #e5e7eb;
-      background: #fff; color: #6b7280; font-size: 12.8px; font-weight: 800; cursor: pointer;
+      flex: 0 0 auto; padding: 8px 12px; border-radius: 999px; border: 1px solid #e5e7eb;
+      background: #fff; color: #4b5563; font-size: 12.2px; font-weight: 800; cursor: pointer; white-space: nowrap;
     }
     .tab.active { background: #14161a; color: #fff; border-color: #14161a; }
+    .count-bar { font-size: 11.8px; color: #6b7280; margin: 2px 2px 10px; }
 
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
     .pcard {
@@ -69,18 +70,19 @@
     .ph-code { font-size: 17px; font-weight: 900; letter-spacing: -0.3px; }
     .pcode {
       position: absolute; top: 8px; left: 8px; padding: 3px 8px; border-radius: 999px;
-      background: rgba(17,24,39,.82); color: #fff; font-size: 11px; font-weight: 800;
+      background: rgba(17,24,39,.84); color: #fff; font-size: 11px; font-weight: 800;
       backdrop-filter: blur(4px);
     }
     .pkind {
       position: absolute; bottom: 8px; right: 8px; padding: 2px 7px; border-radius: 7px;
-      background: rgba(255,255,255,.92); color: #111827; font-size: 10.5px; font-weight: 800;
+      background: rgba(255,255,255,.92); color: #374151; font-size: 10px; font-weight: 800;
       box-shadow: 0 1px 4px rgba(0,0,0,.1);
     }
+    .pkind.is-haus { background: #ecfdf5; color: #047857; }
     .pkind.is-recipe { background: #fff3e0; color: #c2410c; }
     .pbody { padding: 10px 11px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; justify-content: space-between; }
     .ptitle {
-      font-size: 13.8px; font-weight: 800; color: #111827; line-height: 1.35;
+      font-size: 13.5px; font-weight: 800; color: #111827; line-height: 1.35;
       display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
     }
     .psub {
@@ -101,27 +103,126 @@
     <div class="prof">
       <div class="av">R</div>
       <h1>리얼리즘 큐레이션</h1>
-      <div class="hdl">REALLISM · 밀리터리 · 테크 · 추천템</div>
+      <div class="hdl">@realism_kr · 밀리터리 · 테크 · 추천템</div>
       <p class="bio">영상·피드 속 화제의 아이템 바로가기 ⚡</p>
     </div>
-    
+    <a class="store-btn" href="https://influencers.coupang.com/s/Loden_studio" target="_blank" rel="noopener noreferrer">🛒 쿠팡 인플루언서 전체 스토어 ›</a>
     <div class="search-wrap">
       <span class="search-ico">🔍</span>
-      <input class="search" id="q" type="search" placeholder="번호 또는 키워드 검색 (예: 5, 97, 단호박)" oninput="applyFilter()" />
+      <input class="search" id="q" type="search" placeholder="번호 또는 상품명 검색 (예: 97, 로덴4, 카시오, 리얼4)" oninput="applyFilter()" />
     </div>
     
-    <div class="empty">아직 등록된 상품이 없습니다.<br/>곧 엄선된 추천템이 업데이트됩니다 🤍</div>
+    <div class="count-bar">표시 중 <b id="shownCnt">9</b>개 · 번호나 상품명으로 바로 찾아보세요</div>
+    
     <div class="grid" id="grid">
-      
+      <a class="pcard" href="./4/" target="_blank" rel="noopener noreferrer" data-q="리얼4 스위스카드  리얼리즘 4 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail14.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2d26/ff9c5f670b3e8bd59b2b690cd2d390bfaa357e85c4b8e3d4c6239809268d.jpg" loading="lazy" decoding="async" alt="스위스카드" />
+                <span class="pcode">리얼4</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">스위스카드</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./3/" target="_blank" rel="noopener noreferrer" data-q="리얼3 쿠쿠밥솥  리얼리즘 3 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail11.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/460029883558897-a7d02c36-f75a-483f-9cd4-9ad92eaaa69b.jpg" loading="lazy" decoding="async" alt="쿠쿠밥솥" />
+                <span class="pcode">리얼3</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">쿠쿠밥솥</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./2/" target="_blank" rel="noopener noreferrer" data-q="리얼2 wd40 스마트  리얼리즘 2 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail11.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/871f/55931017b843e25c0a1109ddf33c2d62037559fb5d878f878397e492b77e.jpg" loading="lazy" decoding="async" alt="wd40 스마트" />
+                <span class="pcode">리얼2</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">wd40 스마트</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./1/" target="_blank" rel="noopener noreferrer" data-q="리얼1 zic  리얼리즘 1 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/d0bf/aa740d7301e14fbc294cf769da4d7f353daecf3fe83a637743f2f029d529.jpg" loading="lazy" decoding="async" alt="ZIC" />
+                <span class="pcode">리얼1</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">ZIC</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./r5/" target="_blank" rel="noopener noreferrer" data-q="리얼리즘 오뉴 김소스 오리지널, 1개, 290g  리얼리즘 r5 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/473c/c3396faea938afdf0909ee9c2709f276976f0a0fb8d02a13f81fdac6c4e9.jpg" loading="lazy" decoding="async" alt="오뉴 김소스 오리지널, 1개, 290g" />
+                <span class="pcode">리얼리즘</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">오뉴 김소스 오리지널, 1개, 290g</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./r6/" target="_blank" rel="noopener noreferrer" data-q="리얼리즘 재난시 꼭 챙겨야하는 자가발전 라디오  리얼리즘 r6 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail14.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/50bd/37f8089adbb319ae23edaa2f02b68433d476c7364e74f39857d212b3455f.jpg" loading="lazy" decoding="async" alt="재난시 꼭 챙겨야하는 자가발전 라디오" />
+                <span class="pcode">리얼리즘</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">재난시 꼭 챙겨야하는 자가발전 라디오</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./r7/" target="_blank" rel="noopener noreferrer" data-q="리얼리즘 온 가족이 함께쓰는 와이파이 라우터  리얼리즘 r7 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/bb71/8893787c7553e1282a69becda479732494365cc421ad1b21e29492ea91c2.jpeg" loading="lazy" decoding="async" alt="온 가족이 함께쓰는 와이파이 라우터" />
+                <span class="pcode">리얼리즘</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">온 가족이 함께쓰는 와이파이 라우터</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./r8/" target="_blank" rel="noopener noreferrer" data-q="리얼리즘 무설치 낮잠 접이식침대 6단계 조정 대형 휴대용 야전침대 소음 없고 접이식 싱글침대, 그레이  리얼리즘 r8 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/e9c02aee4a22e57107a79bd42a2d6b0d8bd7bce6af01408a7bb592b249dc_1761624374204.png" loading="lazy" decoding="async" alt="무설치 낮잠 접이식침대 6단계 조정 대형 휴대용 야전침대 소음 없고 접이식 싱글침대, 그레이" />
+                <span class="pcode">리얼리즘</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">무설치 낮잠 접이식침대 6단계 조정 대형 휴대용 야전침대 소음 없고 접이식 싱글침대, 그레이</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a><a class="pcard" href="./r9/" target="_blank" rel="noopener noreferrer" data-q="리얼리즘 한국 라면 최초로 일본에서 수상한 [신라면 툼바]  리얼리즘 r9 realism" data-kind="short" data-group="realism">
+              <div class="pthumb">
+                <img src="https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/166112175234431-4094f1e4-40c0-4455-8333-803dd9194720.png" loading="lazy" decoding="async" alt="한국 라면 최초로 일본에서 수상한 [신라면 툼바]" />
+                <span class="pcode">리얼리즘</span>
+                <span class="pkind ">리얼리즘</span>
+              </div>
+              <div class="pbody">
+                <div class="ptitle">한국 라면 최초로 일본에서 수상한 [신라면 툼바]</div>
+                
+                <div class="pcta">바로 이 상품 →</div>
+              </div>
+            </a>
     </div>
     <div class="no-res" id="noRes">검색 결과가 없습니다. 다른 번호나 키워드로 찾아보세요!</div>
   </div>
   <script>
-    let curKind = 'all';
-    function setKind(k, btn) {
-      curKind = k;
-      document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
-      if (btn) btn.classList.add('active');
+    let curTab = 'all';
+    function setTab(t, btn) {
+      curTab = t;
+      document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b === btn || b.getAttribute('data-tab') === t));
       applyFilter();
     }
     function applyFilter() {
@@ -129,14 +230,29 @@
       let shown = 0;
       document.querySelectorAll('#grid .pcard').forEach(el => {
         const hay = el.getAttribute('data-q') || '';
-        const k = el.getAttribute('data-kind') || 'short';
-        const ok = (!v || hay.includes(v)) && (curKind === 'all' || k === curKind);
+        const grp = el.getAttribute('data-group') || 'haus';
+        const ok = (!v || hay.includes(v)) && (curTab === 'all' || grp === curTab);
         el.style.display = ok ? 'flex' : 'none';
         if (ok) shown++;
       });
+      const sc = document.getElementById('shownCnt');
+      if (sc) sc.textContent = String(shown);
       const nr = document.getElementById('noRes');
       if (nr) nr.style.display = (shown === 0 && document.querySelectorAll('#grid .pcard').length > 0) ? 'block' : 'none';
     }
+    (function initFromUrl() {
+      try {
+        const sp = new URLSearchParams(window.location.search);
+        const tab = (sp.get('tab') || '').trim().toLowerCase();
+        const q = (sp.get('q') || '').trim();
+        if (q && document.getElementById('q')) document.getElementById('q').value = q;
+        if (tab && document.querySelector('.tab[data-tab="' + tab + '"]')) {
+          setTab(tab, document.querySelector('.tab[data-tab="' + tab + '"]'));
+        } else if (q) {
+          applyFilter();
+        }
+      } catch (e) {}
+    })();
   </script>
 </body>
 </html>

@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "4",
+    "code": "리얼4",
+    "title": "스위스카드",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./4/",
+    "thumb": "https://thumbnail14.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2d26/ff9c5f670b3e8bd59b2b690cd2d390bfaa357e85c4b8e3d4c6239809268d.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "3",
+    "code": "리얼3",
+    "title": "쿠쿠밥솥",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./3/",
+    "thumb": "https://thumbnail11.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/460029883558897-a7d02c36-f75a-483f-9cd4-9ad92eaaa69b.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "2",
+    "code": "리얼2",
+    "title": "wd40 스마트",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./2/",
+    "thumb": "https://thumbnail11.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/871f/55931017b843e25c0a1109ddf33c2d62037559fb5d878f878397e492b77e.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "1",
+    "code": "리얼1",
+    "title": "ZIC",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./1/",
+    "thumb": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/d0bf/aa740d7301e14fbc294cf769da4d7f353daecf3fe83a637743f2f029d529.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "r5",
+    "code": "리얼리즘",
+    "title": "오뉴 김소스 오리지널, 1개, 290g",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./r5/",
+    "thumb": "https://thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/473c/c3396faea938afdf0909ee9c2709f276976f0a0fb8d02a13f81fdac6c4e9.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "r6",
+    "code": "리얼리즘",
+    "title": "재난시 꼭 챙겨야하는 자가발전 라디오",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./r6/",
+    "thumb": "https://thumbnail14.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/50bd/37f8089adbb319ae23edaa2f02b68433d476c7364e74f39857d212b3455f.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "r7",
+    "code": "리얼리즘",
+    "title": "온 가족이 함께쓰는 와이파이 라우터",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./r7/",
+    "thumb": "https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/bb71/8893787c7553e1282a69becda479732494365cc421ad1b21e29492ea91c2.jpeg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "r8",
+    "code": "리얼리즘",
+    "title": "무설치 낮잠 접이식침대 6단계 조정 대형 휴대용 야전침대 소음 없고 접이식 싱글침대, 그레이",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./r8/",
+    "thumb": "https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/e9c02aee4a22e57107a79bd42a2d6b0d8bd7bce6af01408a7bb592b249dc_1761624374204.png",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
+    "slug": "r9",
+    "code": "리얼리즘",
+    "title": "한국 라면 최초로 일본에서 수상한 [신라면 툼바]",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./r9/",
+    "thumb": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/166112175234431-4094f1e4-40c0-4455-8333-803dd9194720.png",
+    "updated_at": "2026-11-26 18:16"
+  }
+]
