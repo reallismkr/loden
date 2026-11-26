@@ -14,18 +14,6 @@
   {
     "kind": "short",
     "group": "studio",
-    "slug": "57",
-    "code": "57번",
-    "title": "유막제거",
-    "subtitle": "",
-    "badge": "로덴스튜디오",
-    "href": "./57/",
-    "thumb": "https://thumbnail13.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8306/81719f10c989d6924d7247df9debbce9f693e03d8186ed58920770136e2d.jpg",
-    "updated_at": "2026-11-26 22:41"
-  },
-  {
-    "kind": "short",
-    "group": "studio",
     "slug": "100",
     "code": "100번",
     "title": "노스페이스 방한슬리퍼",
@@ -526,6 +514,18 @@
     "href": "./59/",
     "thumb": "https://t5c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/48e0/037acd4ed9ae6b71b20618d20a39850b0ad5e79762862833dabe14a5c6bf.jpg",
     "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
+    "slug": "57",
+    "code": "57번",
+    "title": "유막제거",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./57/",
+    "thumb": "https://thumbnail13.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8306/81719f10c989d6924d7247df9debbce9f693e03d8186ed58920770136e2d.jpg",
+    "updated_at": "2026-11-26 22:41"
   },
   {
     "kind": "short",
@@ -1106,18 +1106,6 @@
   {
     "kind": "short",
     "group": "studio",
-    "slug": "2",
-    "code": "2번",
-    "title": "반응 무드등",
-    "subtitle": "",
-    "badge": "로덴스튜디오",
-    "href": "./2/",
-    "thumb": "https://thumbnail3.coupangcdn.com/thumbnails/remote/492x492ex/image/rs_quotation_api/pwmpdhzu/c0508eb68c9e4003b9ad0122497cf5a6.jpg",
-    "updated_at": "2026-11-26 18:16"
-  },
-  {
-    "kind": "short",
-    "group": "studio",
     "slug": "3",
     "code": "3번",
     "title": "우드서랍장",
@@ -1125,6 +1113,18 @@
     "badge": "로덴스튜디오",
     "href": "./3/",
     "thumb": "https://t5a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/d135/9b6cf8441ba0632dba9b1b8d37de1de242c36676bd51b7624c18daf1059a.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
+    "slug": "2",
+    "code": "2번",
+    "title": "반응 무드등",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./2/",
+    "thumb": "https://thumbnail3.coupangcdn.com/thumbnails/remote/492x492ex/image/rs_quotation_api/pwmpdhzu/c0508eb68c9e4003b9ad0122497cf5a6.jpg",
     "updated_at": "2026-11-26 18:16"
   },
   {
@@ -1149,6 +1149,54 @@
     "badge": "로덴스튜디오",
     "href": "./0/",
     "thumb": "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9e13/53cf0b5303e85b594f2d082a143a1e7ede14abb1fb90f99c948e09450342.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "haus",
+    "slug": "h4",
+    "code": "로덴4",
+    "title": "키티핫팩",
+    "subtitle": "",
+    "badge": "로덴하우스",
+    "href": "./h4/",
+    "thumb": "https://thumbnail15.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2f88/82e91ea6fd950060fd92de05849e305fabd05e58d965d74ff28f30cea787.png",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "haus",
+    "slug": "h3",
+    "code": "로덴3",
+    "title": "무타공중문",
+    "subtitle": "",
+    "badge": "로덴하우스",
+    "href": "./h3/",
+    "thumb": "https://thumbnail3.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/481c/62fda9de8c6fd6de5c572e5889052aecbc316649048148988de6db1d12c8.png",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "haus",
+    "slug": "h2",
+    "code": "로덴2",
+    "title": "루돌프 강아지",
+    "subtitle": "",
+    "badge": "로덴하우스",
+    "href": "./h2/",
+    "thumb": "https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/755c/7e7bbc25ef7783da2041be1be0fdcadb2e184db44a46fe612f60855f7c3d.jpg",
+    "updated_at": "2026-11-26 18:16"
+  },
+  {
+    "kind": "short",
+    "group": "haus",
+    "slug": "h1",
+    "code": "로덴1",
+    "title": "기립식 대형스크린",
+    "subtitle": "",
+    "badge": "로덴하우스",
+    "href": "./h1/",
+    "thumb": "https://thumbnail3.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2339/696495e1faa30230adda2eb1b428edf3a2a7589a0c2f2cbec54b31007279.jpeg",
     "updated_at": "2026-11-26 18:16"
   },
   {
@@ -1509,54 +1557,6 @@
     "badge": "로덴스튜디오",
     "href": "./s30/",
     "thumb": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2441/b5b0aecc429eb050be9c6ced0574fd22f4add17b18b0c0c9babc3aeea9cb.jpg",
-    "updated_at": "2026-11-26 18:16"
-  },
-  {
-    "kind": "short",
-    "group": "haus",
-    "slug": "h4",
-    "code": "로덴4",
-    "title": "키티핫팩",
-    "subtitle": "",
-    "badge": "로덴하우스",
-    "href": "./h4/",
-    "thumb": "https://thumbnail15.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2f88/82e91ea6fd950060fd92de05849e305fabd05e58d965d74ff28f30cea787.png",
-    "updated_at": "2026-11-26 18:16"
-  },
-  {
-    "kind": "short",
-    "group": "haus",
-    "slug": "h3",
-    "code": "로덴3",
-    "title": "무타공중문",
-    "subtitle": "",
-    "badge": "로덴하우스",
-    "href": "./h3/",
-    "thumb": "https://thumbnail3.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/481c/62fda9de8c6fd6de5c572e5889052aecbc316649048148988de6db1d12c8.png",
-    "updated_at": "2026-11-26 18:16"
-  },
-  {
-    "kind": "short",
-    "group": "haus",
-    "slug": "h2",
-    "code": "로덴2",
-    "title": "루돌프 강아지",
-    "subtitle": "",
-    "badge": "로덴하우스",
-    "href": "./h2/",
-    "thumb": "https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/755c/7e7bbc25ef7783da2041be1be0fdcadb2e184db44a46fe612f60855f7c3d.jpg",
-    "updated_at": "2026-11-26 18:16"
-  },
-  {
-    "kind": "short",
-    "group": "haus",
-    "slug": "h1",
-    "code": "로덴1",
-    "title": "기립식 대형스크린",
-    "subtitle": "",
-    "badge": "로덴하우스",
-    "href": "./h1/",
-    "thumb": "https://thumbnail3.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2339/696495e1faa30230adda2eb1b428edf3a2a7589a0c2f2cbec54b31007279.jpeg",
     "updated_at": "2026-11-26 18:16"
   }
 ]
