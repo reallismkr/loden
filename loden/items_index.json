@@ -2,6 +2,18 @@
   {
     "kind": "short",
     "group": "studio",
+    "slug": "101",
+    "code": "101번",
+    "title": "초강력 무선건",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./101/",
+    "thumb": "",
+    "updated_at": "2026-11-26 23:05"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
     "slug": "57",
     "code": "57번",
     "title": "유막제거",
