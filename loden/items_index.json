@@ -2,6 +2,18 @@
   {
     "kind": "short",
     "group": "studio",
+    "slug": "100",
+    "code": "100번",
+    "title": "노스페이스 방한슬리퍼",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./100/",
+    "thumb": "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/f93a/580d1b07c6487ad38e628dd72e4ea8092c9a199bbcf2165eb0a9a776ec81.png",
+    "updated_at": "2026-11-26 21:15"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
     "slug": "99",
     "code": "99번",
     "title": "슬림 콘센트",
