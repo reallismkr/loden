@@ -1224,6 +1224,17 @@
     "updated_at": "2026-11-26 18:16"
   },
   {
+    "kind": "recipe",
+    "slug": "glow1",
+    "code": "루틴1",
+    "title": "바세린 속광 나이트 루틴",
+    "subtitle": "바세린 + ⭐핵심앰플⭐ 1방울",
+    "badge": "✨ 뷰티루틴",
+    "href": "./p/glow1/",
+    "thumb": "./assets/p_glow1.jpg",
+    "updated_at": "2026-11-27 18:23"
+  },
+  {
     "kind": "short",
     "group": "studio",
     "slug": "s1",
