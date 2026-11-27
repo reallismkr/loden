@@ -2,6 +2,18 @@
   {
     "kind": "short",
     "group": "studio",
+    "slug": "102",
+    "code": "102번",
+    "title": "오니츠카타이거 토쿠텐 청크",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./102/",
+    "thumb": "./assets/s_102.jpg",
+    "updated_at": "2026-11-27 18:48"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
     "slug": "101",
     "code": "101번",
     "title": "초강력 무선건",
