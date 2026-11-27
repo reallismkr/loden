@@ -1154,6 +1154,18 @@
   {
     "kind": "short",
     "group": "haus",
+    "slug": "h5",
+    "code": "로덴5",
+    "title": "40대에도 20대 몸매 비법템",
+    "subtitle": "",
+    "badge": "로덴하우스",
+    "href": "./h5/",
+    "thumb": "./assets/s_h5.jpg",
+    "updated_at": "2026-11-27 10:57"
+  },
+  {
+    "kind": "short",
+    "group": "haus",
     "slug": "h4",
     "code": "로덴4",
     "title": "키티핫팩",
