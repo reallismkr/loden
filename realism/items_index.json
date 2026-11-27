@@ -2,6 +2,18 @@
   {
     "kind": "short",
     "group": "realism",
+    "slug": "5",
+    "code": "리얼5",
+    "title": "무타공 AI 도어캠",
+    "subtitle": "",
+    "badge": "리얼리즘",
+    "href": "./5/",
+    "thumb": "https://thumbnail2.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/advertiser/1785914642548/55ef771d-d811-4f65-b43a-d4048f6a07ac.png",
+    "updated_at": "2026-11-27 21:00"
+  },
+  {
+    "kind": "short",
+    "group": "realism",
     "slug": "4",
     "code": "리얼4",
     "title": "스위스카드",
