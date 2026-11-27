@@ -3,171 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>바세린 속광 나이트 루틴</title>
+  <title>바세린 속광 나이트 루틴 · 로덴</title>
+  <meta property="og:title" content="바세린 속광 나이트 루틴 · 로덴" />
+  <meta property="og:description" content="클릭하시면 바로 이 상품이 떠요 👀" />
+  <meta http-equiv="refresh" content="0; url=https://tolog.kr/loden/r1/" />
+  <script>
+    (function () {
+      try {
+        window.location.replace("https://tolog.kr/loden/r1/");
+      } catch (e) {
+        window.location.href = "https://tolog.kr/loden/r1/";
+      }
+    })();
+  </script>
   <style>
     * { box-sizing: border-box; }
     body {
-      margin: 0; padding: 20px 16px 48px;
-      background: #f4f5f9; color: #22252a;
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: #f5f6fa; color: #1e2128; padding: 20px;
       font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-      line-height: 1.55;
     }
-    .wrap { max-width: 480px; margin: 0 auto; }
-    .disclosure {
-      text-align: center; font-size: 11px; color: #a1a6b2; margin-bottom: 18px;
+    .box {
+      width: 100%; max-width: 380px; background: #fff; border-radius: 22px; padding: 28px 22px;
+      text-align: center; box-shadow: 0 10px 30px rgba(20, 24, 38, .08); border: 1px solid #eceef4;
     }
-    .hero { text-align: center; margin-bottom: 24px; }
-    .hero h1 { margin: 0 0 8px; font-size: 26px; font-weight: 900; letter-spacing: -0.5px; color: #1a1c20; }
-    .hero p { margin: 0; font-size: 14px; color: #7a808d; line-height: 1.6; }
-    .sec-title { font-size: 13px; font-weight: 700; color: #7b818f; margin: 18px 0 8px 4px; }
-    .card {
-      background: #ffffff; border-radius: 18px; padding: 6px 18px;
-      box-shadow: 0 2px 12px rgba(20, 24, 38, 0.04); margin-bottom: 14px;
+    .badge {
+      display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 11.5px; font-weight: 800;
+      background: #1a1b1f; color: #fff; margin-bottom: 12px;
     }
-    .item-row {
-      display: flex; justify-content: space-between; align-items: center;
-      padding: 13px 2px; border-bottom: 1px solid #f1f2f6; font-size: 14.5px; color: #252830;
-      text-decoration: none;
+    h1 { margin: 0 0 8px; font-size: 18px; font-weight: 900; letter-spacing: -0.3px; }
+    p { margin: 0 0 20px; font-size: 13.5px; color: #6e7482; line-height: 1.5; }
+    .btn {
+      display: block; width: 100%; padding: 14px 16px; border-radius: 14px;
+      background: #111827; color: #fff; text-decoration: none; font-size: 15px; font-weight: 800;
     }
-    .item-row:last-child { border-bottom: none; }
-    .item-left { display: flex; align-items: center; gap: 10px; font-weight: 600; }
-    .em { font-size: 17px; width: 22px; text-align: center; }
-    .amt { color: #8c92a0; font-size: 13.5px; font-weight: 500; }
-    .secret-row { cursor: pointer; }
-    .secret-row:hover { background: #fffaf2; border-radius: 10px; }
-    .secret-name { color: #e08214; font-weight: 800; }
-    .secret-amt { color: #6b7280; font-size: 13.5px; font-weight: 600; }
-    .chev { color: #e08214; font-size: 20px; font-weight: 800; }
-
-    .step-row {
-      display: flex; align-items: flex-start; gap: 12px; padding: 13px 2px;
-      border-bottom: 1px solid #f1f2f6; font-size: 14.5px;
-    }
-    .step-row:last-child { border-bottom: none; }
-    .step-num {
-      flex-shrink: 0; width: 23px; height: 23px; border-radius: 50%;
-      background: #e08b22; color: #fff; font-size: 12px; font-weight: 800;
-      display: inline-flex; align-items: center; justify-content: center; margin-top: 2px;
-    }
-    .step-txt { color: #2b2f38; }
-    .secret-inline {
-      color: #e08214; font-weight: 800; text-decoration: none;
-      border-bottom: 2px solid #f4b760; padding-bottom: 1px; cursor: pointer;
-    }
-    .secret-inline.dark {
-      color: #ffbe55; border-bottom-color: rgba(255,190,85,.5);
-    }
-
-    .tips-card { padding: 16px 18px; }
-    .tips-head { font-size: 13px; font-weight: 800; color: #7b818f; margin-bottom: 8px; }
-    .tips-list { margin: 0; padding: 0; list-style: none; font-size: 13.5px; color: #525763; }
-    .tips-list li { padding: 4px 0; }
-    .tips-list li::before { content: "· "; color: #e08214; font-weight: 900; }
-
-    .cta-card {
-      background: #1a1b1f; color: #ffffff; border-radius: 20px;
-      padding: 24px 20px 22px; text-align: center; margin-top: 18px;
-      box-shadow: 0 10px 28px rgba(15, 18, 28, 0.16);
-    }
-    .cta-copy { font-size: 17px; font-weight: 800; line-height: 1.55; margin-bottom: 16px; }
-    .cta-btn {
-      display: block; width: 100%; padding: 14px 18px; border-radius: 13px;
-      background: linear-gradient(135deg, #e79124, #d97a12); color: #ffffff;
-      font-size: 15.5px; font-weight: 800; text-decoration: none; cursor: pointer;
-      box-shadow: 0 4px 14px rgba(231, 145, 36, 0.35);
-    }
-    .cta-btn:active { transform: scale(0.99); }
-
-    /* 자동 복사 안내 팝업 모달 */
-    .modal-overlay {
-      position: fixed; inset: 0; background: rgba(12, 15, 22, 0.62);
-      display: none; align-items: flex-end; justify-content: center;
-      padding: 16px; z-index: 9999; backdrop-filter: blur(3px);
-    }
-    .modal-overlay.open { display: flex; }
-    .modal-sheet {
-      width: 100%; max-width: 440px; background: #ffffff; border-radius: 22px;
-      padding: 24px 20px 18px; text-align: center;
-      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
-      animation: slideUp .18s ease-out;
-    }
-    @keyframes slideUp { from { transform: translateY(24px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-    .modal-pill {
-      display: inline-block; padding: 5px 12px; border-radius: 999px;
-      background: #ecfdf5; color: #059669; font-size: 12.5px; font-weight: 800; margin-bottom: 10px;
-    }
-    .modal-title { font-size: 18px; font-weight: 900; color: #181a20; line-height: 1.45; margin-bottom: 14px; }
-    .modal-title span { color: #d97706; }
-    .kw-box {
-      display: flex; align-items: center; justify-content: space-between; gap: 10px;
-      background: #f8f9fc; border: 1.5px solid #e5e8f0; border-radius: 13px;
-      padding: 11px 14px; margin-bottom: 10px;
-    }
-    .kw-val { font-size: 17px; font-weight: 900; color: #1a1c20; letter-spacing: -0.3px; }
-    .kw-copy-btn {
-      padding: 6px 11px; border-radius: 8px; border: none;
-      background: #1a1b1f; color: #fff; font-size: 12px; font-weight: 800; cursor: pointer;
-    }
-    .modal-desc { font-size: 12.8px; color: #6b7280; margin-bottom: 16px; }
-    .modal-go-btn {
-      display: block; width: 100%; padding: 14px; border-radius: 13px;
-      background: linear-gradient(135deg, #e79124, #d97a12); color: #fff;
-      font-size: 15.5px; font-weight: 900; text-decoration: none;
-      box-shadow: 0 4px 14px rgba(231, 145, 36, 0.35);
-    }
-    .modal-close-btn {
-      margin-top: 10px; background: none; border: none; color: #9ca3af;
-      font-size: 13px; font-weight: 700; cursor: pointer; padding: 6px 16px;
-    }
+    .disc { margin-top: 14px; font-size: 11px; color: #9ea4b0; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="disclosure">쿠팡 파트너스 활동의 일환으로 일정 수수료를 제공받습니다</div>
-    <div class="hero">
-      <h1>바세린 속광 나이트 루틴</h1>
-      <p>재료 딱 두 가지, 자기 전 3분 컷<br>다음날 아침 화장 착붙 물광 피부 🤍</p>
-    </div>
-
-    <div class="sec-title">🧴 준비물</div>
-    <div class="card">
-      <div class="item-row">
-                  <div class="item-left"><span class="em">🫙</span><span>바세린 (또는 집에 있는 수분크림)</span></div>
-                  <span class="amt">콩알만큼</span>
-                </div><a href="https://tolog.kr/loden/h6/" target="_blank" rel="noopener noreferrer" class="item-row secret-row">
-                  <div class="item-left"><span class="em">⭐</span><span class="secret-name">핵심앰플</span><span class="secret-amt">1~2방울</span></div>
-                  <span class="chev">›</span>
-                </a>
-    </div>
-
-    <div class="sec-title">✨ 3분 루틴 순서</div>
-    <div class="card">
-      <div class="step-row">
-              <span class="step-num">1</span>
-              <div class="step-txt">세안 후 토너로 피부결만 가볍게 정리해 주세요</div>
-            </div><div class="step-row">
-              <span class="step-num">2</span>
-              <div class="step-txt">손등에 바세린(또는 수분크림)을 <strong>콩알만큼</strong> 덜고 <a href="https://tolog.kr/loden/h6/" target="_blank" rel="noopener noreferrer" class="secret-inline">⭐ 핵심앰플 ⭐</a>을 <strong>1~2방울</strong> 떨어뜨려 골고루 섞어주세요</div>
-            </div><div class="step-row">
-              <span class="step-num">3</span>
-              <div class="step-txt">볼·이마·광대 중심으로 얇게 펴 바른 뒤 손바닥 체온으로 5초간 꾹 눌러 흡수시켜 주세요</div>
-            </div><div class="step-row">
-              <span class="step-num">4</span>
-              <div class="step-txt">그대로 숙면하면 다음날 아침 <strong>속부터 차오르는 물광결</strong> 완성 ✨</div>
-            </div>
-    </div>
-
-    <div class="card tips-card">
-      <div class="tips-head">📌 포인트 &amp; 주의사항</div>
-      <ul class="tips-list">
-        <li><a href="https://tolog.kr/loden/h6/" target="_blank" rel="noopener noreferrer" class="secret-inline">⭐ 핵심앰플 ⭐</a> 1~2방울이 바세린의 묵직함은 덜어주고 속광·탄력감을 확 끌어올려 줘요</li><li>지성·트러블 피부라면 바세린 대신 <strong>가벼운 수분크림</strong>에 <a href="https://tolog.kr/loden/h6/" target="_blank" rel="noopener noreferrer" class="secret-inline">⭐ 핵심앰플 ⭐</a>을 섞어 쓰면 훨씬 산뜻해요</li><li>민감성 피부는 처음엔 소량으로 턱선 테스트 후 주 2~3회부터 시작해 주세요 🤍</li>
-      </ul>
-    </div>
-
-    <div class="cta-card">
-      <div class="cta-copy">피부과 안 가고 물광 나는 비결,<br><a href="https://tolog.kr/loden/h6/" target="_blank" rel="noopener noreferrer" class="secret-inline dark">⭐ 핵심앰플 ⭐</a> 한 방울이었어요 ✨</div>
-      <a href="https://tolog.kr/loden/h6/" target="_blank" rel="noopener noreferrer" class="cta-btn">⭐ 핵심앰플 바로 확인하기</a>
-    </div>
+  <div class="box">
+    <div class="badge">바로 이 상품 👀</div>
+    <h1>바세린 속광 나이트 루틴</h1>
+    <p>추천 상품으로 잠시 후 바로 이동합니다 🤍</p>
+    <a class="btn" href="https://tolog.kr/loden/r1/" rel="noopener noreferrer">👉 바로 열리지 않으면 여기 터치!</a>
+    <div class="disc">쿠팡 파트너스 활동의 일환으로 일정 수수료를 제공받습니다</div>
   </div>
 </body>
 </html>
