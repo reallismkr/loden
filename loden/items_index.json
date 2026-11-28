@@ -1166,6 +1166,18 @@
   {
     "kind": "short",
     "group": "haus",
+    "slug": "h7",
+    "code": "로덴7",
+    "title": "폭신 야채 계란빵 핵심재료",
+    "subtitle": "",
+    "badge": "로덴하우스",
+    "href": "./h7/",
+    "thumb": "./assets/s_h7.jpg",
+    "updated_at": "2026-11-28 09:18"
+  },
+  {
+    "kind": "short",
+    "group": "haus",
     "slug": "h6",
     "code": "로덴6",
     "title": "바세린 물광 PDRN 앰플",
