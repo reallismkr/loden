@@ -2,6 +2,18 @@
   {
     "kind": "short",
     "group": "studio",
+    "slug": "104",
+    "code": "104번",
+    "title": "무인양품 얼음 안녹는 머그텀블러",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./104/",
+    "thumb": "./assets/s_104.jpg",
+    "updated_at": "2026-11-28 18:58"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
     "slug": "103",
     "code": "103번",
     "title": "카시오 2년배터리 스마트시계",
