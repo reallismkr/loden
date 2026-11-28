@@ -1178,6 +1178,18 @@
   {
     "kind": "short",
     "group": "haus",
+    "slug": "h8",
+    "code": "로덴8",
+    "title": "87세 건강 식단 비법템",
+    "subtitle": "",
+    "badge": "로덴하우스",
+    "href": "./h8/",
+    "thumb": "./assets/s_h8.jpg",
+    "updated_at": "2026-11-28 10:42"
+  },
+  {
+    "kind": "short",
+    "group": "haus",
     "slug": "h7",
     "code": "로덴7",
     "title": "폭신 야채 계란빵 핵심재료",
