@@ -1250,6 +1250,18 @@
   {
     "kind": "recipe",
     "group": "recipe",
+    "slug": "r2",
+    "code": "레시피2",
+    "title": "5분 폭신 야채 계란빵",
+    "subtitle": "밀가루·설탕 0g + ⭐핵심재료⭐ 4큰술",
+    "badge": "🍳 아침레시피",
+    "href": "./r2/",
+    "thumb": "./assets/p_r2.jpg",
+    "updated_at": "2026-11-28 09:19"
+  },
+  {
+    "kind": "recipe",
+    "group": "recipe",
     "slug": "r1",
     "code": "루틴1",
     "title": "바세린 속광 나이트 루틴",
