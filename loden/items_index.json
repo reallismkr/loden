@@ -2,6 +2,18 @@
   {
     "kind": "short",
     "group": "studio",
+    "slug": "103",
+    "code": "103번",
+    "title": "카시오 2년배터리 스마트시계",
+    "subtitle": "",
+    "badge": "로덴스튜디오",
+    "href": "./103/",
+    "thumb": "./assets/s_103.jpg",
+    "updated_at": "2026-11-28 10:30"
+  },
+  {
+    "kind": "short",
+    "group": "studio",
     "slug": "102",
     "code": "102번",
     "title": "오니츠카타이거 +5cm 키높이",
